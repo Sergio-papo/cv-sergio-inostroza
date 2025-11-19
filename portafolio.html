@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio – Sergio Inostroza</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Raleway', sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    table th {
+      background-color: #212529;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    td {
+      vertical-align: middle;
+    }
+
+    img {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-radius: 6px;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .project-title {
+      font-weight: 700;
+      color: #0d6efd;
+      font-size: 1.1rem;
+    }
+
+    .project-desc {
+      font-size: 0.95rem;
+      color: #495057;
+      margin-top: 8px;
+    }
+
+    .intro {
+      background-color: #0d6efd;
+      color: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Sergio Inostroza</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Portafolio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="text-center text-light bg-dark py-5 mt-5">
+    <div class="container">
+      <h1 class="display-4 fw-bold mb-3">Portafolio Profesional</h1>
+      <p class="lead">Proyectos desarrollados aplicando conceptos de diseño, estructura y programación web moderna.</p>
+    </div>
+  </header>
+
+  <section class="container my-5">
+    <div class="intro text-center">
+      <h2 class="fw-bold mb-3">Resumen</h2>
+      <p class="mb-0">
+        Estos proyectos reflejan mi proceso de aprendizaje y aplicación práctica en el desarrollo web, 
+        combinando herramientas como <strong>HTML</strong>, <strong>CSS</strong> y <strong>Bootstrap</strong>.  
+        Cada uno representa un avance en el dominio de estructura, diseño y funcionalidad digital, 
+        demostrando la integración entre técnica y estética.
+      </p>
+    </div>
+  </section>
+
+
+  <section class="container my-5">
+    <h2 class="fw-bold text-center mb-4">Proyectos Realizados</h2>
+
+    <div class="table-responsive">
+      <table class="table table-bordered align-middle text-center shadow-sm">
+        <thead>
+          <tr>
+            <th scope="col" style="width: 35%;">PROYECTO</th>
+            <th scope="col" style="width: 65%;">CAPTURA DEL PROYECTO</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="project-title">Desafío 1 – Curriculum</div>
+              <div class="project-desc">
+                Creación de una estructura HTML semántica para construir un currículum digital claro y ordenado.
+              </div>
+            </td>
+            <td><img src="assets/img/Curriculum.PNG" alt="Desafío 1 – Curriculum" class="img-fluid"></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="project-title">Desafío 2 – Landing Page CSS</div>
+              <div class="project-desc">
+                Diseño de una landing page moderna aplicando estilos CSS, tipografías y layout adaptable.
+              </div>
+            </td>
+            <td><img src="assets/img/Desafio-2.PNG" alt="Desafío 2 – Landing Page CSS" class="img-fluid"></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="project-title">Desafío 3 – Iguana Page</div>
+              <div class="project-desc">
+                Uso de Flexbox y posicionamiento para recrear una página temática con estilo profesional y responsivo.
+              </div>
+            </td>
+            <td><img src="assets/img/Desafio-3.PNG" alt="Desafío 3 – Iguana Page" class="img-fluid"></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="project-title">Desafío 4 – Cuppon</div>
+              <div class="project-desc">
+                Implementación de una interfaz de e-commerce utilizando Bootstrap y componentes dinámicos.
+              </div>
+            </td>
+            <td><img src="assets/img/Desafio-4.PNG" alt="Desafío 4 – Cuppon" class="img-fluid"></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="project-title">Desafío 5 – Olivia Ros</div>
+              <div class="project-desc">
+                Portafolio completo que combina Bootstrap, diseño responsive y estilo visual moderno para presentar proyectos fotográficos.
+              </div>
+            </td>
+            <td><img src="assets/img/Desafio-5.PNG" alt="Desafío 5 – Olivia Ros" class="img-fluid"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-center text-light py-4 mt-5">
+    <p class="mb-0">© 2025 Sergio Inostroza. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

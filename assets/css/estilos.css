@@ -1,0 +1,48 @@
+body {
+  font-family: "Raleway", sans-serif;
+  color: #212529;
+}
+
+h2, h4, h5 {
+  color: #0d6efd;
+}
+
+.image-top {
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+section {
+  line-height: 1.6;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+.btn-outline-info {
+  border-color: #0dcaf0;
+  color: #0dcaf0;
+}
+
+.btn-outline-info:hover {
+  background-color: #0dcaf0;
+  color: white;
+}
+#experiencia .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#experiencia .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#experiencia .image-top {
+  height: 230px;
+  background-size: cover;
+  background-position: center;
+}
